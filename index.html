@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bright Future</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f8fc;
+            color: #243447;
+        }
+
+        /* Header */
+        #header {
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            padding: 30px 10px;
+            text-align: center;
+        }
+
+        #header h1 {
+            margin: 0;
+            font-size: 38px;
+        }
+
+        #header p {
+            margin-top: 8px;
+            color: #d7f9ff;
+        }
+
+        /* Navigation */
+        #nav {
+            background-color: white;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        #nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        #nav a {
+            text-decoration: none;
+            color: #1769aa;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        #nav a:hover {
+            color: #00a896;
+        }
+
+        /* Main */
+        #section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #section h2 {
+            color: #1769aa;
+            margin-top: 30px;
+        }
+
+        #section h3 {
+            color: #00a896;
+            font-size: 25px;
+            margin-top: 40px;
+        }
+
+        #section p {
+            line-height: 1.8;
+            font-size: 17px;
+        }
+
+        /* Sections / Article */
+        section,
+        article {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        /* Why Choose Us */
+        #section ul {
+            list-style-type: circle;
+            display: inline-block;
+            text-align: left;
+            line-height: 2.5;
+            font-size: 17px;
+        }
+
+        #section li {
+            margin: 5px 0;
+        }
+
+        input[type="checkbox"] {
+            accent-color: #00a896;
+            margin-left: 10px;
+        }
+
+        /* Footer */
+        #footer {
+            background: linear-gradient(135deg, #0f2027, #203a43);
+            color: white;
+            text-align: center;
+            padding: 25px 10px;
+            margin-top: 40px;
+        }
+
+        #footer p {
+            margin: 8px;
+        }
+
+        /* Mobile */
+        @media (max-width: 600px) {
+
+            #header h1 {
+                font-size: 30px;
+            }
+
+            #nav ul {
+                gap: 20px;
+            }
+
+            #section {
+                margin: 20px auto;
+                padding: 10px;
+            }
+
+            #section p {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header id="header">
+        <h1>Bright Future</h1>
+        <p>Learn Today, Build a Better Tomorrow</p>
+    </header>
+
+    <nav id="nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="section">
+
+        <section id="home">
+
+            <h2>About Bright Future</h2>
+
+            <p>
+                <strong>
+                    Welcome to Bright Future! We provide quality education
+                    and help students build a successful future.
+                </strong>
+            </p>
+
+            <p id="about">
+                <strong>
+                    Bright Future is dedicated to providing quality education
+                    and creating a positive learning environment for students.
+                    Our goal is to help students develop knowledge, confidence,
+                    creativity, and skills that prepare them for a successful future.
+                </strong>
+            </p>
+
+            <article>
+
+                <h2>Our Mission</h2>
+
+                <p>
+                    <b>
+                        At Bright Future, our mission is to provide students with
+                        quality education and the right guidance to achieve their goals.
+                        We focus on developing knowledge, confidence, creativity,
+                        and practical skills for a brighter future.
+                    </b>
+                </p>
+
+                <h2>Our Vision</h2>
+
+                <p>
+                    <b>
+                        We believe that every student has the potential to succeed.
+                        Our vision is to create a friendly and inspiring learning
+                        environment where students can discover their abilities,
+                        improve their skills, and prepare for a better tomorrow.
+                    </b>
+                </p>
+
+            </article>
+
+            <h3>Why Choose Us?</h3>
+
+            <ul>
+                <li>Experienced Teachers</li>
+                <li>Quality Education</li>
+                <li>Modern Learning Environment</li>
+                <li>Student Support</li>
+            </ul>
+
+        </section>
+
+    </main>
+
+    <footer id="footer">
+
+        <p id="contact">
+            © 2026 Bright Future. All Rights Reserved.
+        </p>
+
+        <p>
+            Contact: brightfuture@gmail.com
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
+```
